@@ -81,3 +81,5 @@ def delete_entry():
         with open('text.txt', 'w') as file:
             for i in entries:
                 file.write(str(i) + '\n')
+                
+
