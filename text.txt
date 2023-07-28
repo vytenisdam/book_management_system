@@ -1,0 +1,2 @@
+{'title': 'lord of the rings', 'author': 'j.r.r. tolkien', 'year': '1932', 'quantity': '2'}
+{'title': 'JoJa', 'author': 'Clint', 'year': '2005', 'quantity': '121'}
