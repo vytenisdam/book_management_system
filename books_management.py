@@ -3,12 +3,12 @@ import csv
 column_names = ['title', 'author', 'year', 'quantity']
 
 # used this to create csv file
-# books = [{
-#          'title': 'Lord of the rings',
-#          'author': 'J.R.R. Tolkien',
-#          'year': 1932,
-#          'quantity': 1
-#            }]
+books = [{
+         'title': 'Lord of the rings',
+         'author': 'J.R.R. Tolkien',
+         'year': 1932,
+         'quantity': 1
+           }]
 
 # # creating a header:
 def create_header():
@@ -16,10 +16,10 @@ def create_header():
     with open ('library.csv', 'w', newline = '') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = column_names)
         writer.writeheader() 
-        #writer.writerows(books)
+        writer.writerows(books)
 
 
-
+create_header()
 #appending a book to existing file:
 def add_new_book():
     
@@ -77,7 +77,7 @@ def updating_quantity():
             if row[0] == name:
                 with open('library.csv', 'a', newline = '') as file:
                     csv.DictWriter(file, fieldnames = column_names)
-                    row[3] += input('new num: ')
+                    row[3] == input('new num: ')
 add_new_book()
 # updating_quantity()
 open_library()
