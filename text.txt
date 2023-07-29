@@ -1,2 +1,4 @@
-{'title': 'lord of the rings', 'author': 'j.r.r. tolkien', 'year': '1932', 'quantity': '2'}
-{'title': 'JoJa', 'author': 'Clint', 'year': '2005', 'quantity': '121'}
+{'title': 'the fellowship of the ring', 'author': 'j.r.r. tolkien', 'year': '1954', 'quantity': '1'}
+{'title': 'silence of the lambs', 'author': 'thomas harris', 'year': '1988', 'quantity': '5'}
+{'title': 'silence of the lambs', 'author': 'thomas harris', 'year': '1988', 'quantity': '78'}
+{'title': 'the two towers', 'author': 'j.r.r. tolkien', 'year': '1954', 'quantity': '1'}
